@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <meta http-equiv="Content-Security-Policy"
+        content="font-src 'self' data:; img-src 'self' data:; default-src 'self' http://121.0.0:3000/">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; font-src 'self' data: fonts.gstatic.com;"> -->
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Document</title>
+    <style>
+        td,
+        th {
+            border: 1px solid #dddddd;
+            text-align: left;
+            padding: 8px;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body id="body">
+
+    <div class="main" id="main" style="display: flex;align-items: center;flex-direction: column;height: 100vh;
+        gap: 5%;">
+        <div class="choose" style="width: 90%;margin-top: 5%;">
+            <button id="addBtn" class="btn btn-primary"> <i class="fa-solid fa-plus" style="margin-right: 10px;"></i>Add
+                New User</button>
+        </div>
+
+        <table class="table table-striped  " style="width: 90%;">
+            <tbody id="tab">
+                <tr>
+                    <th style="width: 15%;">Title</th>
+                    <th style="width: 60%;"> Description</th>
+                    <th style="width: 10%;">Date</th>
+                    <th style="width: 15%;">Action</th>
+                </tr>
+                <!-- <tr>
+                    <td>1.</td>
+                    <td>Maria Anders</td>
+                    <td>Germany</td>
+                    <td>1999-02-27</td>
+                    <td>buttons</td>
+
+                </tr> -->
+            </tbody>
+
+
+        </table>
+
+    </div>
+</body>
+<script type="module" src="java/index.js"></script>
+
+
+
+</html>
